@@ -11,3 +11,231 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pnav{
+  font-family: "Cormorant Infant", "Sorts Mill Goudy", Georgia, "Times New Roman", serif;
+  letter-spacing: 1px;
+  font-size: 19px;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+.thead{
+  text-align: left;
+  font: normal normal normal 50px/55px Gazpacho;
+  letter-spacing: 0px;
+  color: #B7A98F;
+  margin-bottom: 30px;
+}
+
+.tcon{
+  text-align: left;
+  font: normal normal 300 22px/32px Columbia-Serial;
+  letter-spacing: 0.3px;
+  color: #F8F6F5;
+}
+
+.thead2{
+  display: block;
+  text-align: center !important;
+  font: normal normal 400 30px/40px Gazpacho;
+  letter-spacing: 0;
+  color: #A59880;
+  text-transform: none;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+.tcon2{
+  width: 70%;
+  display: block;
+  text-align: center !important;
+  font: normal normal 300 15px/25px Columbia-Serial;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+  /* text-transform: capitalize; */
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+.button1 a{
+  display: block;
+    font: normal normal 500 13px/23px Columbia-Serial;
+    letter-spacing: 0.39px;
+    color: #FFFFFF;
+    border: 1px solid #B6A386;
+    padding: 8px 8px;
+    margin: 30px auto 0px auto;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* display: none; */
+    width: 200px;
+    /* background: linear-gradient(to right, #FFFFFF 50%, transparent 50%); */
+    background: transparent;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    z-index: 999;
+    position: relative;
+    border-radius: 27px;
+}
+
+.button1  a:hover{
+  color: #091927;
+    border: 1px solid #B6A386;
+    background: #F6F4EE;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    z-index: 999;
+    position: relative;
+    border-radius: 27px;
+}
+
+.button2 a{
+  display: block;
+    font: normal normal 500 13px/23px Columbia-Serial;
+    letter-spacing: 0.39px;
+    border: 1px solid #B6A386;
+    padding: 8px 8px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* display: none; */
+    width: 200px;
+    /* background: linear-gradient(to right, #FFFFFF 50%, transparent 50%); */
+    background: transparent;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    z-index: 999;
+    position: relative;
+    border-radius: 27px;
+}
+
+.button2  a:hover{
+  color: #091927;
+    border: 1px solid #B6A386;
+    color: #FFFFFF;
+    background: #B6A386;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    z-index: 999;
+    position: relative;
+    border-radius: 27px;
+}
+
+
+.cartext{
+  font: normal normal 400 30px/40px Gazpacho;
+  text-align: center;
+  color: #091927;
+  padding: 40px 0px 60px 0px;
+}
+
+.carhead{
+  font: normal normal normal 500 27px/37px Gazpacho;
+  text-align: center;
+  color: #091927;
+  padding: 0px 0px 0px 0px
+}
+
+.carcontent{
+  font: normal normal 400 22px/32px Gazpacho;
+  text-align: center;
+  color: #091927;
+  padding: 0px 0px 0px 0px;
+}
+
+.sec6{
+  background: transparent url(https://www.tiarahana.com/wp-content/uploads/2021/07/Frame-Small@2x.png) no-repeat;
+  width: 367px !important;
+  margin: 0px auto;
+  content: "";
+  position: relative;
+  padding: 10px;
+  z-index: 99;
+  background-size: 100% 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-position: right bottom;
+}
+
+.sec6 img{
+  position: relative;
+  object-fit: cover;
+  width: 364px;
+}
+
+.sec6r{
+  margin: 20px;
+  text-align: center;
+  bottom: 100px;
+    padding-top: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.logo2 img{
+  height: 47px;
+  width: 47px;
+}
+
+.btnfot a{
+  font: normal normal 300 14px/22px Columbia-Serial;
+    letter-spacing: 0.39px;
+    color: #091927;
+    border: 1px solid #091927;
+    padding: 10px 15px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 250px;
+    /* background: linear-gradient(to right, #FFFFFF 50%, transparent 50%); */
+    background: transparent;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    z-index: 999;
+    position: relative;
+    border-radius: 80px;
+    margin-top: 55px;
+}
+
+.btnfot a:hover{
+  border: 1px solid #091927;
+    color: #BAA88C;
+    /* background-position: left bottom; */
+    background: #091927;
+}
+
+
+/* .swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper .swiper-slide {
+  height: 300px;
+  line-height: 300px;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
